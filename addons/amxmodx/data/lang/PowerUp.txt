@@ -1,0 +1,137 @@
+[en] -- RedSMURF
+POWER_CHAT_TAG                      = ^4[POWER-UP]^1
+POWER_CHAT_LIMIT                    = You've reached the maximum number of power-ups ^4%d
+POWER_CHAT_NO_POWER                 = There are no power-ups available
+POWER_CHAT_NO_DATA                  = power-ups data hasn't been found
+POWER_CHAT_NO_ACTION                = power-ups action is disabled
+POWER_CHAT_CREATE_NEW               = ^3%s ^1created
+POWER_CHAT_REMOVE_CURRENT           = ^3%s ^1removed
+POWER_CHAT_REMOVE_ALL               = All power-ups removed
+POWER_CHAT_SAVE                     = power-ups data saved in ^4%s
+POWER_CHAT_SHOW_CURRENT             = ^3%s ^1visibility is set to %L
+POWER_CHAT_SHOW_ALL_SHOWN           = All power-ups are now shown
+POWER_CHAT_SHOW_ALL_HIDDEN          = All power-ups are now hidden
+POWER_CHAT_SHOW_ALL_DEFAULT         = All power-ups visibility reset
+POWER_CHAT_TEAM_CURRENT             = ^3%s ^1team is now %L
+POWER_CHAT_TEAM_ALL_NONE            = All power-ups team disabled for all teams
+POWER_CHAT_TEAM_ALL_T               = All power-ups team enabled for Terrorists
+POWER_CHAT_TEAM_ALL_CT              = All power-ups team enabled for Counter-Terrorists
+POWER_CHAT_TEAM_ALL_BOTH            = All power-ups team enabled for all teams
+POWER_CHAT_ANIM_CURRENT             = ^3%s ^1animation is now %L
+POWER_CHAT_ANIM_ALL_IDLE            = All power-ups animation is now idle
+POWER_CHAT_ANIM_ALL_SPIN            = All power-ups animation is now spin
+POWER_CHAT_ANIM_ALL_FLOAT           = All power-ups animation is now float
+POWER_CHAT_ANIM_ALL_SPIN_FLOAT      = All power-ups animation is now spin-float
+POWER_CHAT_SPAWN_CURRENT            = ^3%s ^1spawn setting is set to %L
+POWER_CHAT_SPAWN_ALL_NEVER          = All power-ups spawn setting set to never
+POWER_CHAT_SPAWN_ALL_DELAY          = All power-ups spawn setting set to delay
+POWER_CHAT_SPAWN_ALL_ROUND_START    = All power-ups spawn setting set to round-start
+
+POWER_CHAT_SHOWN                    = Shown
+POWER_CHAT_HIDDEN                   = Hidden
+POWER_CHAT_DEFAULT                  = Default
+POWER_CHAT_NONE                     = None
+POWER_CHAT_T                        = Terrorist
+POWER_CHAT_CT                       = Counter-Terrorist
+POWER_CHAT_BOTH                     = Both teams
+POWER_CHAT_IDLE                     = Idle
+POWER_CHAT_SPIN                     = Spin
+POWER_CHAT_FLOAT                    = Float
+POWER_CHAT_SPIN_FLOAT               = Spin-Float
+POWER_CHAT_NEVER                    = Never
+POWER_CHAT_DELAY                    = Delay
+POWER_CHAT_ROUND_START              = Round-Start
+
+POWER_NAV_NEXT                      = Next
+POWER_NAV_BACK                      = Back
+POWER_ON                            = \y[ON]
+POWER_OFF                           = \r[OFF]
+POWER_SHOWN                         = \y[SHOWN]
+POWER_HIDDEN                        = \r[HIDDEN]
+POWER_DEFAULT                       = \d[DEFAULT]
+POWER_NONE                          = \y[NONE]
+POWER_T                             = \y[T]
+POWER_CT                            = \y[CT]
+POWER_BOTH                          = \y[BOTH]
+POWER_IDLE                          = \y[IDLE]
+POWER_SPIN                          = \y[SPIN]
+POWER_FLOAT                         = \y[FLOAT]
+POWER_SPIN_FLOAT                    = \y[SPIN-FLOAT]
+POWER_NEVER                         = \y[NEVER]
+POWER_DELAY                         = \y[DELAY]
+POWER_ROUND_START                   = \y[ROUND-START]
+
+POWER_MENU_TITLE                    = \dPower-Up - Version \y1.0
+POWER_MENU_TITLE_PAGE               = \yPage:\r
+POWER_ROOT_CREATE                   = Create power-ups
+POWER_ROOT_REMOVE                   = Remove power-ups
+POWER_ROOT_SAVE                     = Save data
+POWER_ROOT_SHOW                     = Visibility settings
+POWER_ROOT_TEAM                     = Team settings
+POWER_ROOT_ANIM                     = Animation settings
+POWER_ROOT_SPAWN                    = Spawn settings
+POWER_ROOT_ROTATE                   = Adjust rotation
+
+POWER_REMOVE_CURRENT                = Remove power-up >> \y%s
+POWER_REMOVE_ALL                    = Remove all power-ups
+
+POWER_SHOW_CURRENT                  = Show power-up >> %s%s %L
+POWER_SHOW_ALL_SHOW                 = Show all power-ups
+POWER_SHOW_ALL_HIDE                 = Hide all power-ups
+POWER_SHOW_ALL_DEFAULT              = Reset-Visibility for all power-ups
+
+POWER_TEAM_CURRENT                  = Adjust team >> %s %L
+POWER_TEAM_ALL_NONE                 = Disable for all teams
+POWER_TEAM_ALL_T                    = Enable for Terrorists
+POWER_TEAM_ALL_CT                   = Enable for Counter-Terrorist
+POWER_TEAM_ALL_BOTH                 = Enable for all teams
+
+POWER_ANIM_CURRENT                  = Adjust animation >> %s %L
+POWER_ANIM_ALL_IDLE                 = All idle animations
+POWER_ANIM_ALL_SPIN                 = All spin animations
+POWER_ANIM_ALL_FLOAT                = All float animations
+POWER_ANIM_ALL_SPIN_FLOAT           = All spin-float animations
+
+POWER_SPAWN_CURRENT                 = Adjust spawn settings >> %s %L
+POWER_SPAWN_ALL_NEVER               = Disable spawning
+POWER_SPAWN_ALL_DELAY               = All power-ups spawn with a delay
+POWER_SPAWN_ALL_ROUND_START         = All power-ups spawn at round start
+
+POWER_ROTATE_RIGHT                  = Turn right
+POWER_ROTATE_LEFT                   = Turn left
+POWER_ROTATE_PLACE                  = Place power-up
+
+POWER_CLOCK_PICKUP                  = ^3Fast reloading ^1activated for ^3%.0f second%c
+POWER_CLOCK_EXPIRE                  = Fast reloading expired
+
+POWER_HEALTH_PICKUP                 = ^3+%.0f Health
+
+POWER_HEALTH2_PICKUP                = ^3Health regeneration ^1activated for ^3%.0f second%c
+POWER_HEALTH2_EXPIRE                = Health regeneration expired
+
+POWER_LIGHTNING_PICKUP              = ^3Speed boost ^1activated for ^3%.0f second%c
+POWER_LIGHTNING_EXPIRE              = Speed boost expired
+
+POWER_MASK_PICKUP                   = ^3Mask invisibility ^1activated for ^3%.0f second%c
+POWER_MASK_EXPIRE                   = Visibility restored
+
+POWER_MASK2_PICKUP                  = ^3Enemy Model ^1activated for ^3%.0f second%c
+POWER_MASK2_EXPIRE                  = Model restored
+
+POWER_SHIELD_PICKUP                 = ^3Shield ^1activated for ^3%.0f second%c
+POWER_SHIELD_EXPIRE                 = Shield expired
+POWER_SHIELD_ARMOR_PICKUP           = ^3+%d Armor
+
+POWER_SKULL_PICKUP                  = ^3Skull ^1activated for ^3%.0f second%c
+POWER_SKULL_EXPIRE                  = Skull expired
+
+POWER_STUN_PICKUP                   = ^3Stun ^1activated for ^3%.0f second%c
+POWER_STUN_EXPIRE                   = Stun expired
+
+POWER_STUN2_PICKUP                  = ^3Flurry of slaps ^1activated for ^3%.0f second%c
+POWER_STUN2_EXPIRE                  = Flurry of slaps expired
+
+POWER_UP2_PICKUP                    = ^3Extra jumps ^1activated for ^3%.0f second%c
+POWER_UP2_EXPIRE                    = Extra jumps expired
+
+POWER_WINGS_PICKUP                  = ^3Wings ^1activated, you're alive again
