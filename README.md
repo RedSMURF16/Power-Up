@@ -25,6 +25,10 @@ Custom setups are saved per map and automatically loaded on every map start.
 - Wings power-ups revive fallen players at spawn or death origin with configurable health, lightning strike effect, and optional weapon/ammo restoration
 - Noclip and intuitive ghost preview tracking for natural alignment with grounds and walls
 
+## 📋 Requirements
+- ReGameDLL
+- AMX Mod X 1.10+
+
 ## 💬 Commands
 - `say /pu` - Opens the Power Ups menu.
 - `say_team /pu` - Opens the Power Ups menu.
