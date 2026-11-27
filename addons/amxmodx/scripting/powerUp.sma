@@ -742,7 +742,6 @@ new Array:g_aPower,
     Array:g_aPowerConfig,
     g_eSettings[MAIN_SETTINGS],
     g_ePlayerData[MAX_PLAYERS + 1][PLAYER_DATA],
-    g_szFileName[MAX_RESOURCE_PATH_LENGTH],
     bool:g_bFileWasRead = false,
     g_iPower, g_iPowerConfig,
     g_iDamage, g_iAmmoPickup, g_iWeapPickup, g_iScreenFade, g_iScreenShake, g_iSetFov,
@@ -752,7 +751,7 @@ new HamHook:g_iFwdTouch, HamHook:g_iFwdPreThink, g_iActivePlayers
 
 public plugin_init()
 {
-    register_plugin("POWER Spawn", PLUGIN_VERSION, "RedSMURF")
+    register_plugin("Power Up", PLUGIN_VERSION, "RedSMURF")
 
     register_clcmd("say /pu",           "cmdMenu", ADMIN_RCON)
     register_clcmd("say_team /pu",      "cmdMenu", ADMIN_RCON)
@@ -913,10 +912,19 @@ ReadFile()
 {
     if ( g_bFileWasRead )
     {
-        new iPlayers[MAX_PLAYERS], iNum
-        get_players(iPlayers, iNum, "ch")
+        ArrayClear(g_aPowerConfig)
+        g_iPowerConfig = 0
+    }
 
-        for ( new i = 0; i < iNum; i ++ )
+    new g_szFileName[MAX_RESOURCE_PATH_LENGTH]
+    get_configsdir(g_szFileName, charsmax(g_szFileName))
+    add(g_szFileName, charsmax(g_szFileName), "/PowerUp.ini")
+
+    new iFile
+    iFile = fopen(g_szFileName, "rt")
+
+    if ( !iFile )
+    {
         set_fail_state("An error occured during the opening of the configuration file !")
     }
 
