@@ -1,7 +1,7 @@
 <h1 align="center">Power Up</h1>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=EE_IodMXQN0"><img src="https://img.youtube.com/vi/EE_IodMXQN0/maxresdefault.jpg" alt="Watch on YouTube" width="600"></a>
+  <img src="images/demo.gif" alt="Power Up">
 </p>
 
 ## 📝 Description
@@ -24,10 +24,6 @@ Custom setups are saved per map and automatically loaded on every map start.
 - Up and Up2 power-ups launch players upward with a colored trail, or grant extra mid-air jumps and reduced gravity
 - Wings power-ups revive fallen players at spawn or death origin with configurable health, lightning strike effect, and optional weapon/ammo restoration
 - Noclip and intuitive ghost preview tracking for natural alignment with grounds and walls
-
-## 📋 Requirements
-- ReGameDLL
-- AMX Mod X 1.10+
 
 ## 💬 Commands
 - `say /pu` - Opens the Power Ups menu.
