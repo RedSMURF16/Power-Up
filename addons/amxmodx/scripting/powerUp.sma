@@ -2128,9 +2128,6 @@ public powerMenu(id, iType)
         case MENU_CREATE:   { menuCreate(iMenu);        format(szTitle, charsmax(szTitle), "%s^n%L", szTitle, id, "POWER_ROOT_CREATE"); }
         case MENU_REMOVE:   { menuRemove(id, iMenu);    format(szTitle, charsmax(szTitle), "%s^n%L", szTitle, id, "POWER_ROOT_REMOVE"); }
         case MENU_SHOW:     { menuShow(id, iMenu);      format(szTitle, charsmax(szTitle), "%s^n%L", szTitle, id, "POWER_ROOT_SHOW"); }
-        case MENU_TEAM:     { menuTeam(id, iMenu);      format(szTitle, charsmax(szTitle), "%s^n%L", szTitle, id, "POWER_ROOT_TEAM"); }
-        case MENU_ANIM:     { menuAnim(id, iMenu);      format(szTitle, charsmax(szTitle), "%s^n%L", szTitle, id, "POWER_ROOT_ANIM"); }
-        case MENU_SPAWN:    { menuSpawn(id, iMenu);     format(szTitle, charsmax(szTitle), "%s^n%L", szTitle, id, "POWER_ROOT_SPAWN"); }
         case MENU_ROTATE:   { menuRotate(id, iMenu);    format(szTitle, charsmax(szTitle), "%s^n%L", szTitle, id, "POWER_ROOT_ROTATE"); }
     }
 
@@ -2174,15 +2171,6 @@ public menuRoot(id, iMenu)
     menu_addblank2(iMenu)
 
     formatex(szItem, charsmax(szItem), "%L", id, "POWER_ROOT_SHOW")
-    menu_additem(iMenu, szItem)
-
-    formatex(szItem, charsmax(szItem), "%L", id, "POWER_ROOT_TEAM")
-    menu_additem(iMenu, szItem)
-
-    formatex(szItem, charsmax(szItem), "%L", id, "POWER_ROOT_ANIM")
-    menu_additem(iMenu, szItem)
-
-    formatex(szItem, charsmax(szItem), "%L", id, "POWER_ROOT_SPAWN")
     menu_additem(iMenu, szItem)
 }
 
